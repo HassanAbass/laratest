@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c3ae21a-4f3e-4a48-ac1e-93c0bd512d75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,7 +181,7 @@
       <workItem from="1582425637273" duration="1281000" />
       <workItem from="1582427128113" duration="7450000" />
       <workItem from="1582480989389" duration="4428000" />
-      <workItem from="1582495482305" duration="2147000" />
+      <workItem from="1582495482305" duration="7023000" />
     </task>
     <servers />
   </component>
@@ -198,6 +197,10 @@
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="721" y="24" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1582495672067" />
+    <state x="697" y="297" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1582531155425">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="697" y="297" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1582531155425" />
     <state x="527" y="48" key="CommitChangelistDialog2" timestamp="1582427216016">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
@@ -210,18 +213,22 @@
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="611" y="336" key="NewPhpClassDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1582419053881" />
-    <state x="759" y="460" key="NewPhpFileDialog" timestamp="1582420427204">
+    <state x="759" y="460" key="NewPhpFileDialog" timestamp="1582528867194">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="759" y="460" key="NewPhpFileDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1582420427204" />
+    <state x="759" y="460" key="NewPhpFileDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1582528867194" />
     <state x="453" y="174" key="SettingsEditor" timestamp="1582419249940">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="453" y="174" key="SettingsEditor/0.24.1920.1056@0.24.1920.1056" timestamp="1582419249940" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1582488669160">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1582531334617">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.24.1920.1056@0.24.1920.1056" timestamp="1582488669160" />
+    <state width="498" height="446" key="SwitcherDM/0.24.1920.1056@0.24.1920.1056" timestamp="1582531334617" />
+    <state x="749" y="171" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582528445934">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="749" y="171" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.24.1920.1056@0.24.1920.1056" timestamp="1582528445934" />
     <state width="600" height="440" key="javadoc.popup" timestamp="1582426617470">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
@@ -230,9 +237,9 @@
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="623" y="246" key="run.anything.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1582419077661" />
-    <state x="623" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1582496503801">
+    <state x="623" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1582531116986">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="623" y="236" width="672" height="678" key="search.everywhere.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1582496503801" />
+    <state x="623" y="236" width="672" height="678" key="search.everywhere.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1582531116986" />
   </component>
 </project>

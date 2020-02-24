@@ -12,12 +12,14 @@
 */
 use Stripe\Stripe;
 Route::get('/', function () {
-    dd(App::environment());
     return view('welcome');
 });
 Route::get('buy',function (){
    return View::make('buy');
 });
+
+Route::get('email', 'EmailController@sendEmail');
+
 Route::post('buy',function (){
     return \Stripe\Charge::create([
         'amount' => 2000,
