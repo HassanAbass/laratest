@@ -1,19 +1,15 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
 use Stripe\Stripe;
+use Illuminate\Support\Facades\Cache;
+
 Route::get('/', function () {
+    if(Cache::has("welcome")){
+        return Cache::get("welcome");
+    }
     return view('welcome');
-});
+})->middleware('cache.welcome');
+
 Route::get('buy',function (){
    return View::make('buy');
 });
