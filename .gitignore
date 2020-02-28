@@ -15,4 +15,4 @@ composer.lock
 .editorconfig
 .styleci.yml
 .gitignore
-.idea/
+.idea/*
