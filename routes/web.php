@@ -24,3 +24,5 @@ Route::post('buy',function (){
         'description' => 'My First Test Charge (created for API docs)',
     ],['api_key' => config('stripe.secret_key')]);
 });
+
+Route::post('/password', 'HashingController@postIndex');
